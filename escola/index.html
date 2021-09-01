@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+.container-fluid{
+    width: 95%;
+}
+.col-md-12{
+    left: 0%;
+    top: 50%;
+    transform: translate(0%, 5%);
+}
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>Links Rápidos</h3>
+                    </div>
+                    <div class="col-md-4 text-center">
+					<div data-ripplet class="jumbotron" onclick="window.location.href = 'ver_curso.php'">
+						<h2>
+							Cursos
+						</h2>
+					</div>
+				    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div data-ripplet class="jumbotron" onclick="window.location.href = 'ver_aluno.php'">
+                            <h2>
+                                Alunos
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div data-ripplet class="jumbotron" onclick="window.location.href = 'inserir_curso.html'">
+                            <h2>
+                                Cadastrar curso
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div data-ripplet class="jumbotron" onclick="window.location.href = 'inserir_aluno.html'">
+                            <h2>
+                                Cadastrar aluno
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div data-ripplet class="jumbotron" onclick="window.location.href = 'inserir_matricula.php'">
+                            <h2>
+                                Matricular Aluno
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div data-ripplet class="jumbotron" onclick="window.location.href = 'excluir_curso.php'">
+                            <h2>
+                                Deletar Curso
+                            </h2>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ripplet.js/umd/ripplet-declarative.min.js"></script>
+</body>
+</html>
